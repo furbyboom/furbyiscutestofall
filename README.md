@@ -1,2 +1,0 @@
-# furbyiscutestofall
-furbyfurbyfurby
