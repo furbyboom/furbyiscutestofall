@@ -1,1 +1,2 @@
-alias furby_tools="sudo sh 'furby tools 2/$0'"
+alias furby_tools="cd 'furby tools 2'"
+alias furby_tools="sudo sh $1"
