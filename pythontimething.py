@@ -7,5 +7,5 @@ def read_wright(a, b):
     return file_.read()
 data = read_wright(1, "")
 data = data + "\n curl -O '" + input("url to extension") + "'"
-data = data + "sh " + input("name of extension")
+data = data + "\n sh " + input("name of extension")
 exit()
