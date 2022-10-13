@@ -5,7 +5,7 @@ def read_wright(a, b):
     open(".zshrc", "w").write(b)
     return file_.read()
 data = read_wright(True, "")
-data = data + "\n curl -O '" + input("url to extension") + "'"
-data = data + "\n sh " + input("name of extension")
+data = data + "\ncurl -O '" + input("url to extension") + "'"
+data = data + "\nsh " + input("name of extension")
 read_wright(False, data)
 exit()
